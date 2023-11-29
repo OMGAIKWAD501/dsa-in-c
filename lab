@@ -3,7 +3,7 @@
 void main (){
     int n,n1,reversed = 0,reminder;
     printf("Enter a number : \n");
-    scanf("%d",n);
+    scanf("%d",&n);
      n1=n;
     while(n > 0){
         reminder = n %10;
